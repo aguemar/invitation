@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitación</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter&display=swap"
+    />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      font-family: "Inter", sans-serif;
+      line-height: 1.5;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h1 {
+      font-family: "Dancing Script", cursive;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .text-1 {
+      font-size: 12px;
+    }
+
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+
+    .bx-container {
+      width: 100%;
+      max-width: 450px;
+      height: 850px;
+      position: relative;
+      background-image: url("./background.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .bx-content {
+      width: 330px;
+      height: 550px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .bx-content img {
+      width: 100px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .bx-date {
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .bx-date p {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .bx-address {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .bx-button {
+      display: inline-flex;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      margin: 1rem 0;
+      padding: 0.5rem 2rem;
+      background-color: black;
+      color: white;
+      border-radius: 0.5rem;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="bx-container">
+        <div class="bx-content">
+          <div class="bx-description">
+            <img src="./foto.webp" alt="Imagen de la abuela" />
+            <h1>Angélica Sebastiana Bandelón Galarza</h1>
+            <p class="text-1">
+              "LA PARTIDA DE MI MADRE ES UN RECORDATORIO DE LO FRÁGIL QUE ES LA
+              VIDA Y LO IMPORTANTE QUE ES AMAR Y APRECIAR A NUESTROS SERES
+              QUERIDOS"
+            </p>
+            <div class="bx-date">
+              <p class="day">25 AGOSTO</p>
+              <p class="hour">08:00 am</p>
+            </div>
+            <div class="bx-address">
+              <p class="text-1">Lugar:</p>
+              <p class="bx-address">Parroquia "NUESTRA SEÑORA DEL ROSARIO"</p>
+            </div>
+          </div>
+          <div class="bx-invitation">
+            <a
+              href="https://wa.me/+51924262338?text=Hola,%20quiero%20confirmar%20mi%20asistencia"
+              class="bx-button"
+              >ASISTIRÉ</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
